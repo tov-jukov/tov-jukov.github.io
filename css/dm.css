@@ -1,0 +1,40 @@
+.uk-navbar-nav > li > a,
+.uk-navbar-item,
+.uk-navbar-toggle {
+  /* navbar height */
+  min-height: 52px;
+  padding: 0 8px;
+  font-size: 0.85rem;
+}
+.tm-ripple {
+  display: inline-block;
+  position: absolute;
+  width: 65px;
+  height: 65px;
+}
+.tm-ripple div {
+  position: absolute;
+  border: 3px solid #fff;
+  opacity: 0.3;
+  border-radius: 50%;
+  animation: tm-ripple 2s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+.tm-ripple div:nth-child(2) {
+  animation-delay: -1s;
+}
+@keyframes tm-ripple {
+  0% {
+    top: 19px;
+    left: 19px;
+    width: 20px;
+    height: 20px;
+    opacity: 0.3;
+  }
+  100% {
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    opacity: 0;
+  }
+}
