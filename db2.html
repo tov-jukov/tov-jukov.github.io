@@ -1,28 +1,5 @@
-
-<!DOCTYPE html>
-<html>
-
-<head>
-
-    <meta charset="utf-8">
-    <!-- <base href="/"> -->
-
-    <title>OptimizedHTML 5</title>
-    <meta name="description" content="Startup HTML template OptimizedHTML 5">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-    <link rel="icon" href="images/favicon.png">
-    <meta property="og:image" content="images/dist/preview.jpg">
-
-    <link rel="stylesheet" href="css/app.min.css">
-    <link rel="stylesheet" href="css/dashboard.css">
-    <link rel="stylesheet" href="css/db2.css">
-    <!-- <link rel="stylesheet" href="css/dm.css"> -->
-</head>
-
-<body>
-
+<!--#set var="title" value="OptimizedHTML 5" -->
+<!--#include virtual="/parts/header.html" -->
 
 
 <nav class="uk-navbar-container uk-light" uk-navbar>
@@ -163,7 +140,7 @@
             <div class="uk-grid-collapse uk-child-width-1-4 uk-text-center" uk-grid>
                 <div><a class="uk-icon-link" uk-icon="home" uk-tooltip="dashboard"></a></div>
                 <div><a class="uk-icon-link" uk-icon="comments" uk-tooltip="comments">
-                        <span class="uk-badge tm-badge-m"><small>1</small></span>
+                        <span class="uk-badge tm-badge-m"><small>2</small></span>
                     </a></div>
                 <div><a class="uk-icon-link" uk-icon="mail" uk-tooltip="messages">
                         <span class="uk-badge tm-badge-m"><small>1</small></span>
@@ -231,47 +208,45 @@
                 <div class="uk-grid uk-grid-divider uk-child-width-1-4" uk-grid>
                     <div>
                         <!-- indicator01 -->
-                        <div class="uk-margin-small-left r0 c5">
+                        <div class="uk-margin-small-left c6">
                             <span class="uk-text-small"><span data-uk-icon="icon:users" class="uk-margin-small-right uk-text-primary"></span>Заявок в очереди</span>
                             <h1 class="uk-heading-primary uk-margin-remove uk-text-primary">2</h1>
-                            <div class="uk-text-small">
-                                more than last week
-                            </div>
+                            <div class="uk-text-small">more than last week</div>
                         </div>
                         <!-- /indicator01 -->
                     </div>
                     <div>
-                        <!-- indicator01 -->
-                        <div class="uk-margin-small-left r0 c1">
-                            <span class="uk-text-small"><span data-uk-icon="icon:users" class="uk-margin-small-right uk-text-primary"></span>Заявок в очереди</span>
+                        <!-- indicator02 -->
+                        <div class="uk-margin-small-left c7">
+                            <span class="uk-text-small"><span data-uk-icon="icon:crosshairs" class="uk-margin-small-right uk-text-primary"></span>Заявок в работе</span>
                             <h1 class="uk-heading-primary uk-margin-remove uk-text-primary">2</h1>
                             <div class="uk-text-small">
                                 more than last week
                             </div>
                         </div>
-                        <!-- /indicator01 -->
+                        <!-- /indicator02 -->
                     </div>
                     <div>
-                        <!-- indicator01 -->
-                        <div class="uk-margin-small-left r0 c2">
-                            <span class="uk-text-small"><span data-uk-icon="icon:users" class="uk-margin-small-right uk-text-primary"></span>Заявок в очереди</span>
+                        <!-- indicator03 -->
+                        <div class="uk-margin-small-left c8">
+                            <span class="uk-text-small"><span data-uk-icon="icon:calendar" class="uk-margin-small-right uk-text-primary"></span>Заявоки на контроле</span>
                             <h1 class="uk-heading-primary uk-margin-remove uk-text-primary">2</h1>
                             <div class="uk-text-small">
                                 more than last week
                             </div>
                         </div>
-                        <!-- /indicator01 -->
+                        <!-- /indicator03 -->
                     </div>
                     <div>
-                        <!-- indicator01 -->
-                        <div class="uk-margin-small-left r0 c3">
-                            <span class="uk-text-small"><span data-uk-icon="icon:users" class="uk-margin-small-right uk-text-primary"></span>Заявок в очереди</span>
+                        <!-- indicator04 -->
+                        <div class="uk-margin-small-left c9">
+                            <span class="uk-text-small"><span data-uk-icon="icon:check" class="uk-margin-small-right uk-text-primary"></span>Заявок выполнено</span>
                             <h1 class="uk-heading-primary uk-margin-remove uk-text-primary">2</h1>
                             <div class="uk-text-small">
                                 more than last week
                             </div>
                         </div>
-                        <!-- /indicator01 -->
+                        <!-- /indicator04 -->
                     </div>
                 </div>
             </div>
@@ -344,9 +319,4 @@
 </div>
 </div>
 
-<script defer src="js/app.min.js"></script>
-
-</body>
-
-</html>
-
+<!--#include virtual="/parts/footer.html" -->

@@ -10062,7 +10062,7 @@ iframe[data-uk-cover] {
  * 2. Set style
  * 3. Fix shadow being clipped in Safari if container is animated
  */
-@supports (filter: blur(0)) {
+@supports ((-webkit-filter: blur(0)) or (filter: blur(0))) {
   .uk-box-shadow-bottom {
     display: inline-block;
     position: relative;
@@ -12782,27 +12782,10 @@ iframe[data-uk-cover] {
   font-weight: 700;
   src: url("../fonts/roboto-bolditalic-webfont.woff2") format("woff2");
 }
-::-webkit-input-placeholder {
-  color: #666;
-}
-::-moz-placeholder {
-  color: #666;
-}
-:-ms-input-placeholder {
-  color: #666;
-}
-::-ms-input-placeholder {
-  color: #666;
-}
-::placeholder {
-  color: #666;
-}
-
 ::-moz-selection {
   background-color: orange;
   color: #fff;
 }
-
 ::selection {
   background-color: orange;
   color: #fff;
@@ -12870,6 +12853,22 @@ body {
 
 .c5 {
   background-color: #a04040;
+}
+
+.c6 {
+  background-color: #FA8B77;
+}
+
+.c7 {
+  background-color: #6FE5A9;
+}
+
+.c8 {
+  background-color: #C35EC6;
+}
+
+.c9 {
+  background-color: #62C6E6;
 }
 
 .heading {
