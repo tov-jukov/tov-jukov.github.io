@@ -49,7 +49,7 @@
 
     <div class="uk-navbar-left">
 
-        <a class="uk-navbar-item uk-logo" href="index.html" aria-label="Back to Home">Logo</a>
+        <a class="uk-navbar-item uk-logo" href="#" aria-label="Back to Home">Logo</a>
 
         <ul class="uk-navbar-nav">
             <li>
@@ -177,9 +177,7 @@
     </div>
 </nav>
 
-<div class="cc3">
-    123
-</div>
+
 
 
 
@@ -195,42 +193,78 @@
         </ul>
     </div>
 </div> -->
+<div class="uk-container uk-container-expand uk-margin-medium">
 
+    <h1>Expand</h1>
+
+    <div class="uk-margin">
+
+    </div>
+
+</div>
 
 <div class="uk-container uk-container-expand">
+    <div class="cc3 uk-margin-small-top">
+        Список заявок
+    </div>
+    <div class="uk-grid-collapse uk-child-width-1-1" uk-height-viewport="expand: true" uk-grid>
+        <div>
+            <div class="c3">
+                <!-- table -->
+                <div class="uk-overflow-auto">
+
+                    <!-- Номер  Здание заявителя  Кабинет заявителя  Дата заявки  Время заявки  Дата принятия  Время принятия  Суть обращения  Кому  От кого  Статус  Перенаправлена на  Отметка спец. ОАСУ -->
+
+                    <!-- 22372  Красноармейская 7а  231  2024-02-16  08:52:32  2024-02-16  10:27:21  Доброе утро! Настройте пожалуйста ЭЦП. тлф 41-63 ip addres 10.75.38.138 hostname ws07503811027.0075.pfr.ru  Хисматулин Е.Р.  ПРИЛУКОВА МАРИНА ВЛАДИМИРОВНА  удовлетворена -->
+
+                    <table class="uk-table uk-table-divider uk-table-hover uk-table-responsive">
+                        <thead>
+                            <tr>
+                                <th class="uk-table-shrink">Номер</th>
+                                <th class="uk-table-shrink">Здание заявителя</th>
+                                <th class="uk-table-expand">Кабинет</th>
+                                <th class="uk-width-small">Дата</th>
+                                <th class="uk-width-medium">Время</th>
+                                <th class="uk-table-shrink uk-text-nowrap">Дата принятия</th>
+                                <th class="uk-table-shrink">Время принятия</th>
+                                <th class="uk-table-shrink">Суть обращения</th>
+                                <th class="uk-table-shrink">Кому</th>
+                                <th class="uk-table-shrink">От кого</th>
+                                <th class="uk-table-shrink">Перенаправлена на</th>
+                                <th class="uk-table-shrink">Отметка спец. УИТ</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <!-- <input class="uk-checkbox" type="checkbox" aria-label="Checkbox"> -->
+                                    2223
+                                </td>
+                                <td>Красноармейская 7а</td>
+                                <td class="uk-table-link">231</td>
+                                <td class="uk-text-truncate">2024-02-16</td>
+                                <td>08:52:32</td>
+                                <td class="uk-text-nowrap">2024-02-16</td>
+                                <td class="uk-text-nowrap">10:27:21</td>
+                                <td class="uk-text-nowrap">Доброе утро! Настройте пожалуйста ЭЦП. тлф 41-63 ip addres 10.75.38.138 hostname ws07503811027.0075.pfr.ru</td>
+                                <td class="uk-text-nowrap">Хисматулин Е.Р.</td>
+                                <td class="uk-text-nowrap"><img class="uk-preserve-width uk-border-circle" src="images/dist/avatar.svg" width="40" height="40" alt="">ПРИЛУКОВА МАРИНА ВЛАДИМИРОВНА</td>
+                                <td class="uk-text-nowrap">-</td>
+                                <td class="uk-text-nowrap">-</td>
+                            </tr>
 
 
-    <form>
-        <fieldset class="uk-fieldset">
-            <div class="uk-margin">
-                <label for="">От кого</label>
-                <input class="uk-input" type="text" placeholder="Text input">
-            </div>
 
-            <div class="uk-margin">
-                <label for="">Subject</label>
-                <select class="uk-select">
-                    <option>Select dropdown</option>
-                    <option>With options</option>
-                </select>
-            </div>
-            <div class="uk-margin">
+                        </tbody>
+                    </table>
+                </div>
+                <!-- /table -->
 
-                <label for="">
-                    <input class="uk-checkbox" type="checkbox"> I agree this
-                </label>
             </div>
-            <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
-                <label><input class="uk-radio" type="radio" name="radio2" checked>Yes</label>
-                <label><input class="uk-radio" type="radio" name="radio2">No</label>
-            </div>
-            <div class="uk-margin">
-                <label for="">Message</label>
-                <textarea class="uk-textarea" rows="5" placeholder="Textarea"></textarea>
-            </div>
-            <button class="uk-button uk-button-primary uk-width-1-1">Submit</button>
-        </fieldset>
-    </form>
+        </div>
+
+    </div>
+
 </div>
 
 <script defer src="js/app.min.js"></script>
