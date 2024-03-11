@@ -72,10 +72,6 @@
                 </a>
             </li>
 
-
-
-
-
         </ul>
 
 
@@ -178,7 +174,7 @@
 </nav>
 
 <div class="cc3">
-    123
+
 </div>
 
 
@@ -197,42 +193,137 @@
 </div> -->
 
 
-<div class="uk-container uk-container-expand">
+<div class="uk-container uk-container-expand uk-margin-medium-top">
+
+    <div class="uk-placeholder">
 
 
-    <form>
-        <fieldset class="uk-fieldset">
-            <div class="uk-margin">
-                <label for="">От кого</label>
-                <input class="uk-input" type="text" placeholder="Text input">
-            </div>
+        <div class="uk-child-width-1-2" uk-grid>
+            <div>
+                <div class="uk-panel">
+                    <form>
+                        <fieldset class="uk-fieldset">
+                            <div class="uk-margin">
+                                <label for="">От кого:</label>
+                                <input class="uk-input" type="text" placeholder="ФИО">
+                            </div>
 
-            <div class="uk-margin">
-                <label for="">Subject</label>
-                <select class="uk-select">
-                    <option>Select dropdown</option>
-                    <option>With options</option>
-                </select>
-            </div>
-            <div class="uk-margin">
+                            <div class="uk-margin">
+                                <label for="">Кому:</label>
+                                <div class="uk-child-width-1-2" uk-grid>
+                                    <div>
+                                        <div class="uk-panel c3">
+                                            <select class="uk-select">
+                                                <option>Бондарь А.Б. (УИТ)</option>
+                                                <option>Субботин Е.В.(УИТ)</option>
+                                                <option>Карпов И.Н. (УИТ)</option>
+                                                <option>Паньков А.П. (УИТ)</option>
+                                                <option>Кзьмин А.В. (ОЗИ)</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="uk-panel c4">
+                                            <select class="uk-select">
+                                                <option>УИТ</option>
+                                                <option>ОЗИ</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
 
-                <label for="">
-                    <input class="uk-checkbox" type="checkbox"> I agree this
-                </label>
+                            </div>
+
+                            <div class="uk-margin">
+
+                                <label for="">Тема:</label>
+                                <select class="uk-select">
+                                    <option value="Интернет и локальная сеть">Интернет и локальная сеть</option>
+                                    <option value="Компьютеры и переферия">Компьютеры и переферия</option>
+                                    <option value="Принтеры (обслуживание)">Принтеры (обслуживание)</option>
+                                    <option value="Система">Система</option>
+                                    <option value="Телефония">Телефония</option>
+                                    <option value="Установка ПО">Установка ПО</option>
+                                    <option value="Другое">Другое</option>
+                                </select>
+                            </div>
+
+                            <div class="uk-margin">
+
+                                <div class="uk-child-width-1-2" uk-grid>
+                                    <div>
+                                        <div class="uk-panel c3">1-2</div>
+                                    </div>
+                                    <div>
+                                        <div class="uk-panel c4">1-2</div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="uk-margin">
+
+                                <p uk-switcher="animation: uk-animation-fade; toggle: > *">
+                                    <a class="uk-button uk-button-default c2" href>Низкий</a>
+                                    <button class="uk-button uk-button-default c3" type="button">Средний</button>
+                                    <button class="uk-button uk-button-default c4" type="button">Высокий</button>
+                                </p>
+
+                                <ul class="uk-switcher">
+                                    <li>Hello!</li>
+                                    <li>Hello again!</li>
+                                    <li>Bazinga!</li>
+                                </ul>
+
+                                <!-- <label for="">
+                                    <input class="uk-checkbox" type="checkbox"> I agree this
+                                </label> -->
+                            </div>
+                            <!-- <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
+                                <label><input class="uk-radio" type="radio" name="radio2" checked>Yes</label>
+                                <label><input class="uk-radio" type="radio" name="radio2">No</label>
+                            </div> -->
+                            <div class="uk-margin">
+                                <label for="">Текс заявки:</label>
+                                <textarea class="uk-textarea" rows="5" placeholder="Текст заявки"></textarea>
+                            </div>
+                            <button class="uk-button uk-button-primary uk-width-1-1">Отправить</button>
+                        </fieldset>
+                    </form>
+                </div>
             </div>
-            <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
-                <label><input class="uk-radio" type="radio" name="radio2" checked>Yes</label>
-                <label><input class="uk-radio" type="radio" name="radio2">No</label>
+            <div>
+                <div class="uk-panel">
+
+                    Информация о пользователе
+
+                    <ul>
+                        <li>ФИО: укуку</li>
+                        <li>Логин: пусто</li>
+                        <li>Должность: пусто</li>
+                        <li>Раздел: пусто</li>
+                        <li>Тел: пусто</li>
+                        <li>Кабинет: пусто</li>
+                        <li>E-mail: пусто</li>
+
+                    </ul>
+
+
+
+
+
+
+
+
+
+                </div>
             </div>
-            <div class="uk-margin">
-                <label for="">Message</label>
-                <textarea class="uk-textarea" rows="5" placeholder="Textarea"></textarea>
-            </div>
-            <button class="uk-button uk-button-primary uk-width-1-1">Submit</button>
-        </fieldset>
-    </form>
+        </div>
+
+
+
+    </div>
 </div>
-
 <script defer src="js/app.min.js"></script>
 
 </body>
